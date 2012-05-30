@@ -118,9 +118,7 @@
 			//Create image element
 			realimage = document.createElement('image');
 			realimage.setAttribute('alt', 'Pinned from Pre-Pin Chrome Extension');
-			realimage.setAttribute('height', image.naturalHeight);
 			realimage.setAttribute('src', iframe.src);
-			realimage.setAttribute('width', image.naturalWidth);
 
 			//Clear DOM
 			document.body.innerHTML = '';
