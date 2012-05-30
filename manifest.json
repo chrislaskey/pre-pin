@@ -1,0 +1,24 @@
+{
+	"name": "Pre-Pin",
+	"version": "1.4.0",
+	"description": "Pre-Pin extends the capabilities of the Pinterest Pin It! bookmarklet. For more information visit the http://github.com/chrislaskey/pre-pin.",
+	"homepage_url": "http://github.com/chrislaskey/pre-pin",
+	"background_page": "background.html",
+	"content_scripts": [
+		{
+		"matches": ["http://*/*", "https://*/*"],
+		"css": ["pre-pin-content-styles.css"],
+		"js": ["pre-pin-content-scripts.js"]
+		}
+	],
+	"icons": {
+		"16": "icon.png",
+		"32": "icon.png",
+		"48": "icon.png",
+		"128": "icon.png"
+	},
+	"permissions": [
+		"contextMenus",
+		"tabs"
+	]
+}
