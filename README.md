@@ -5,7 +5,7 @@ Information
 @contact chrislaskey.com
 @contact github.com/chrislaskey
 @updated 2012.05.30
-@version 1.4.0
+@version 1.4.2
 
 About Pre-Pin
 ================================================================================
