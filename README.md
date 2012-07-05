@@ -4,8 +4,8 @@ Information
 @author Chris Laskey
 @contact chrislaskey.com
 @contact github.com/chrislaskey
-@updated 2012.05.30
-@version 1.4.2
+@updated 2012.07.05
+@version 1.6.0
 
 About Pre-Pin
 ================================================================================
